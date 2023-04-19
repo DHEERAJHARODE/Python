@@ -12,3 +12,15 @@ print(name)
 print(a)
 print(b)
 print(c)
+
+# many values to multiple variable
+
+x,y,z="Apple","Mango","Banana"
+print(x,y,z)
+
+# unpack a collection
+
+fruits=["Apple","Mango","Banana"]
+x,y,z=fruits
+print(x,y,z)
+
