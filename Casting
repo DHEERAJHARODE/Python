@@ -1,0 +1,15 @@
+#Implicit type casting
+
+a=20
+b=30.5
+c=a+b;      # c automatically converts in float type
+print(c)
+
+#Explicit type casting
+
+x=3.0
+y=4
+z="5"
+a=int(x)
+b=str(y)
+c=float(z)
