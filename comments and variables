@@ -1,0 +1,14 @@
+name="PythonDEV" #This is single line comment
+print(name) """Multiline comment"""
+
+
+num=20
+name="Dheeraj"
+a=true
+b=4.5
+c='C'
+print(num)
+print(name)
+print(a)
+print(b)
+print(c)
