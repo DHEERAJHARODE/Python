@@ -1,0 +1,15 @@
+def fun():
+    global a    #Using global keyword
+    a=20
+    print(a)
+fun()
+print(a)
+
+def fun1():
+    print(a)
+a=30            #Global scope 
+print(a)
+fun1()
+def fun2():
+    print(a)
+fun2()
