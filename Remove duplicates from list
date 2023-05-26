@@ -1,0 +1,6 @@
+number=[2,2,4,6,3,6,1]
+uniques=[]
+for i in number:
+    if i not in uniques:
+        uniques.append(i)
+print(uniques)
