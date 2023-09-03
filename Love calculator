@@ -1,0 +1,21 @@
+name1=input("Enter your name : ")
+name2=input("Enter your friend name : ")
+combined_str=name1+name2
+lower=combined_str.lower()
+t=lower.count('t')
+r=lower.count('r')
+u=lower.count('u')
+e=lower.count('e')
+
+true=t+r+u+e
+
+l=lower.count('l')
+o=lower.count('o')
+v=lower.count('v')
+e=lower.count('e')
+
+love=l+o+v+e
+print(love)
+print(true)
+result=str(love)+str(true)
+print(result)
