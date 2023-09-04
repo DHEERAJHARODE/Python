@@ -1,0 +1,16 @@
+l1=["😀","😄","😁"]
+l2=["😆","😅","😂"]
+l3=["😇","😍","🥳"]
+result=[l1,l2,l3]
+print(f"{l1}\n{l2}\n{l3}\n")
+hori=int(input("Enter horizontal no. : "))
+vert=int(input("Enter vertical no. : "))
+map=result[vert][hori]
+print(map)
+choice=input("Are you want to change this value : Y/N\n")
+if(choice=="Y"):
+  val=(input("Enter value : "))
+  result[vert][hori]=val
+else:
+  print("Exit")
+print(f"{l1}\n{l2}\n{l3}\n")
