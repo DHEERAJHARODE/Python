@@ -1,0 +1,6 @@
+num=int(input("Enter a number : "))
+a,b=0,1
+for _ in range(0,num):
+  sum=a+b
+  print(sum,end=" , ")
+  a,b=b,sum
