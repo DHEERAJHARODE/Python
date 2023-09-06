@@ -1,0 +1,5 @@
+input_str=input("Enter number separated by spaces : ")
+number_as_str=input_str.split()
+number=[int(num) for num in number_as_str]
+total=sum(number)
+print(total)
