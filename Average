@@ -1,0 +1,8 @@
+height=input("Enter height : ").split()
+for i in range(0,len(height)):
+  height[i]=int(height[i])
+print(height)
+total=sum(height)
+print(f"Total sum of heights is {total}")
+average=total/len(height)
+print(f"Average of heights is {round(average)}")
