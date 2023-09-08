@@ -1,0 +1,9 @@
+num=input("Enter numbers ").split()
+max=0
+for i in range(0,len(num)):
+  num[i]=int(num[i])
+  if num[i]>num[0]:
+    max=num[i]
+print(num)
+print(f"max is {max}")
+  
