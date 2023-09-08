@@ -1,0 +1,12 @@
+num=input("Enter numbers : ").split()
+sum,even=0,0
+for i in range(0,len(num)):
+  num[i]=int(num[i])
+  if(num[i]%2==0):
+    even=num[i]
+    sum+=num[i]
+print("Even numbers are : ")
+for i in range(0,len(num)):
+    if(num[i]%2==0):
+      print("\t",num[i],end=' ')
+print(f"\nSum of even numbers is {sum}")
